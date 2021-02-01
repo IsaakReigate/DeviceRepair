@@ -19,13 +19,13 @@ public class Device {
     }
 
     public int priorityRank(){
-        //PRIORITY RANK METHOD HERE
+        return 1235424626;
     }
     
     public String toString(){
-        //TO STRING METHOD HERE
+        return IdentificationCode + "," + MakeAndModel + "," + Owner + "," + ProblemDescription + "," + RepairNotes;
     }
-    
+
     public String getIdentificationCode() {
         return IdentificationCode;
     }
